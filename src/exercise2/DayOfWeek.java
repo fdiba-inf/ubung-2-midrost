@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class DayOfWeek {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a natural number between 1 and 7: ");
         int number = input.nextInt();
 
         if (number < 1 || number > 7) {
