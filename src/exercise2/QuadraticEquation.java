@@ -35,7 +35,7 @@ public class QuadraticEquation {
             double x1 = (-b + sqrt_dis) / 2 * a;
             double x2 = (-b - sqrt_dis) / 2 * a;
 
-            System.out.println(x1 + "\n" + x2);
+            System.out.println(x1 + ", " + x2);
         }
     }
 }
