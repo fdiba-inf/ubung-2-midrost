@@ -8,7 +8,7 @@ public class DayOfWeek {
         int number = input.nextInt();
 
         if (number < 1 || number > 7) {
-            System.out.println("Invalid day");
+            System.out.println("Day of week: Invalid day");
             return;
         }
 
