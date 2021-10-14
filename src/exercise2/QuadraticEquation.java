@@ -5,19 +5,18 @@ import java.util.Scanner;
 public class QuadraticEquation {
     public static void main(String[] args) {
         Scanner inputa = new Scanner(System.in);
-        double a = inputa.nextDouble();
+        int a = inputa.nextInt();
 
         Scanner inputb = new Scanner(System.in);
-        double b = inputb.nextDouble();
+        int b = inputb.nextInt();
 
         Scanner inputc = new Scanner(System.in);
-        double c = inputc.nextDouble();
+        int c = inputc.nextInt();
 
         if (a == 0) {
             if (b == 0) {
                 if (c == 0) {
                     System.out.println("Many values");
-                    return;
                 } else {
                     System.out.println("No values");
                 }
