@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class QuadraticEquation {
     public static void main(String[] args) {
-        Scanner inputa = new Scanner(System.in);
-        int a = inputa.nextInt();
+        Scanner input = new Scanner(System.in);
+        double a = input.nextDouble();
 
-        Scanner inputb = new Scanner(System.in);
-        int b = inputb.nextInt();
+        //Scanner inputb = new Scanner(System.in);
+        double b = input.nextDouble();
 
-        Scanner inputc = new Scanner(System.in);
-        int c = inputc.nextInt();
+        //Scanner inputc = new Scanner(System.in);
+        double c = input.nextDouble();
 
         if (a == 0) {
             if (b == 0) {
